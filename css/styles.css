@@ -69,7 +69,7 @@ nav ul li a {
 .profile img {
     max-width: 200px;
     flex-shrink: 0;
-    border-radius: 50%;
+    border-radius: 10%;
     overflow: hidden;
     border: 2px solid #fff;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
