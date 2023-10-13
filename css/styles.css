@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'TexGyrePagella-local';
+    src: url('fonts/texgyrepagella.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TeXGyrePagella';
+    src: url(53f87e2b745c3930f4a684e34484dd2e.eot),
+        url(53f87e2b745c3930f4a684e34484dd2e.eot?#iefix) format('embedded-opentype'),
+        url(986f93ad70b359de2d69943f39bae648.svg#tex_gyre_pagellaregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+    align-items: center;
+    padding-top: 30px;
+}
+
+#intro .container {
+    display: flex;
+}
+
+/* Define common styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the profile picture */
+.profile img {
+    max-width: 200px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    margin-left: 20px;
+    /* Add some spacing between the profile picture and information */
+    flex-grow: 1;
+}
+
+.info h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'TexGyrePagella', 'TexGyrePagella-local', serif;
+}
+
+.info p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+@media (max-width: 545px) {
+    .profile img {
+        max-width: 150px;
+        /* Adjust the desired width for smaller screens */
+    }
+
+    .info h1 {
+        font-size: 2.0rem;
+    }
+
+    .info p {
+        font-size: 1.0rem;
+    }
+}
+
+/* Style the social media icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon img {
+    max-width: 32px;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    fill: #000C29;
+}
+
+
+.icon:hover,
+.icon:focus {
+    fill: #E66E29;
+}
+
+
+a {
+    color: #3C6E71;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #E66E29;
+    text-decoration: none;
+}
+
+.container h2 {
+    font-size: 2.0rem;
+    font-family: 'TexGyrePagella', 'TexGyrePagella-local', serif;
+}
+
+.tabs {
+    padding-top: 20px;
+}
+
+
+#acknowledgement p {
+    padding: 0;
+    font-size: 0.9rem;
+}

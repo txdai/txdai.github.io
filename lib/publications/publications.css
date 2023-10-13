@@ -1,0 +1,132 @@
+/* Update CSS for the main study container */
+.study {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    margin-top: 1rem; /* Adjust spacing between studies */
+    border-bottom: 1px solid #ccc; /* Add a faint gray border at the bottom of each study */
+    padding-bottom: 16px; /* Add some spacing between studies */
+    position: relative; /* Enable relative positioning for BibTeX section */
+}
+
+/* CSS for the study content container */
+.study-content {
+    display: flex;
+    align-items: center; /* Center horizontally */
+    width: 100%;
+}
+
+/* CSS for the study details container */
+.study-details {
+    display: flex;
+    flex-direction: column; /* Stack title, authors, and journal vertically */
+    align-items: flex-start; /* Align elements to the left */
+    margin-left: 1rem; /* Add spacing between image and text */
+}
+
+/* CSS for the image */
+.study-image {
+    max-width: 30%; /* Image takes up 30% of parent width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1rem; /* Adjust spacing between image and text */
+}
+
+/* CSS for the title */
+.study-title {
+    font-weight: bold; /* Make the title bold */
+}
+
+/* CSS for text content container */
+.text-content {
+    display: flex;
+    flex-direction: column; /* Stack title, authors, and journal vertically */
+    margin-left: 1rem; /* Add spacing between image and text */
+    flex-grow: 1; /* Allow text content to grow and take available space */
+}
+
+/* CSS for buttons container */
+.study-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+    flex-direction: row; /* Stack buttons horizontally */
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 0.5rem; /* Adjust spacing between text and buttons */
+}
+
+/* Styling for the buttons */
+.study-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3C6E71; /* Blue perimeter */
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: transparent; /* Clear background */
+    color: #3C6E71; /* Text color and perimeter color */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover effect */
+.study-button:hover {
+    background-color: transparent; /* Clear background on hover */
+    border-color: #E66E29; /* Change perimeter color to orange on hover */
+    color: #E66E29; /* Change text color to orange on hover */
+}
+
+/* CSS for the BibTeX section */
+.bibtex-section {
+    display: none; /* Initially hide the BibTeX section */
+    max-width: 100%; /* Ensure BibTeX text doesn't exceed parent width */
+    overflow-x: auto; /* Enable horizontal scrolling for BibTeX text */
+    border: 1px solid #ccc; /* Add a faint gray border to the BibTeX section */
+    padding: 8px; /* Add padding to the BibTeX section */
+    background-color: #f0f0f0; /* Add a light gray background to the BibTeX section */
+    width: 100%; /* Set width to 100% */
+    position: absolute; /* Position the BibTeX section absolutely */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width of the parent container */
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: opacity 1.0s ease; /* Add a transition to opacity */
+}
+
+
+/* Styling for the BibTeX text */
+.bibtex-text {
+    /* You can add additional styles here as needed */
+    margin: 0; /* Remove any margin */
+    padding: 8px 0; /* Adjust padding to remove the gap */
+}
+
+
+.copy-button {
+    position: absolute;
+    right: 8px; /* Adjust the right position as needed */
+    opacity: 0; /* Initially set opacity to 0 */
+    z-index: 2;
+    background-color: #3C6E71;
+    border: transparent;
+    color: #ccc;
+    pointer-events: none;   /* Disable pointer events initially */
+}
+
+.copy-button.active {
+    opacity: 0.9;
+    background-color: #3C6E71;
+    color: #fff;
+}
+
+.copy-button.active:hover {
+    opacity: 1; /* Set opacity to 1 on hover */
+}
+
+.bibtex-link.active {
+    background-color: #3C6E71; /* Change the background color when activated */
+    color: #fff; /* Change the text color when activated to white */
+}
+
+.bibtex-link.active:hover {
+    background-color: #E66E29; /* Change the text color when activated to white */
+}
