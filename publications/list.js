@@ -5,7 +5,7 @@ const publicationsList = [
         imageSrc: 'publications/images/10.1515_nanoph-2022-0109.png',
         title: 'Matrix eigenvalue solver based on reconfigurable photonic neural network',
         authors: 'Kun Liao*, Chentong Li*, <strong>Tianxiang Dai*</strong>, Chuyu Zhong, Hongtao Lin, Xiaoyong Hu and Qihuang Gong',
-        journal: 'Nanophotonics',
+        journal: 'Nanophotonics, 2022.',
         pdfLink: 'publications/pdfs/10.1515_nanoph-2022-0109.pdf',
         journalLink: 'https://www.degruyter.com/document/doi/10.1515/nanoph-2022-0109',
         videoLink: '',
