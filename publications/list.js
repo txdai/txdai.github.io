@@ -54,8 +54,7 @@ const publicationsList = [
 	url = {https://doi.org/10.1038/s41378-023-00588-y},
 	volume = {9},
 	year = {2023},
-	bdsk-url-1 = {https://doi.org/10.1038/s41378-023-00588-y}}
-`,
+	bdsk-url-1 = {https://doi.org/10.1038/s41378-023-00588-y}}`,
         selected: true, // Indicate whether the study is selected
     },
 
@@ -91,8 +90,7 @@ const publicationsList = [
 	volume = {10},
 	year = {2023},
 	year1 = {2023},
-	bdsk-url-1 = {https://doi.org/10.1021/acsphotonics.2c01516}
-}`,
+	bdsk-url-1 = {https://doi.org/10.1021/acsphotonics.2c01516}}`,
         selected: true, // Indicate whether the study is selected
     },
 
