@@ -65,7 +65,7 @@ const publicationsList = [
         authors: 'Kun Liao, <strong>Tianxiang Dai</strong>, Qiuchen Yan, Xiaoyong Hu and Qihuang Gong',
         journal: 'ACS Photonics, 2023.',
         pdfLink: 'publications/pdfs/acsphotonics.2c01516.pdf',
-        journalLink: 'https://doi.org/10.1364/OE.388378',
+        journalLink: 'https://doi.org/10.1021/acsphotonics.2c01516',
         videoLink: '',
         codeLink: '',
         dataLink: '',
@@ -81,7 +81,6 @@ const publicationsList = [
 	date-modified = {2023-10-12 19:26:32 -0700},
 	doi = {10.1021/acsphotonics.2c01516},
 	journal = {ACS Photonics},
-	journal1 = {ACS Photonics},
 	month = {07},
 	number = {7},
 	pages = {2001--2010},
@@ -92,7 +91,7 @@ const publicationsList = [
 	volume = {10},
 	year = {2023},
 	year1 = {2023},
-	bdsk-url-1 = {https://doi.org/10.1021/acsphotonics.2c01516}}
+	bdsk-url-1 = {https://doi.org/10.1021/acsphotonics.2c01516}
 }`,
         selected: true, // Indicate whether the study is selected
     },
